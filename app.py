@@ -12,7 +12,7 @@ LOT_SIZES = {
 }
 
 
-st.title("Upstox Scalping Lot Calculator")
+st.title("Lot Calc")
 
 st.markdown("Fast quantity calculation")
 
@@ -26,7 +26,7 @@ capital = st.number_input(
 premium = st.number_input(
     "📈 Option Premium (₹)",
     min_value=0.0,
-    value=197.0,
+    value=0.0,
     step=1.0
 )
 
