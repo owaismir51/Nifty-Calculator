@@ -24,9 +24,9 @@ capital = st.number_input(
 )
 
 premium = st.number_input(
-    "📈 Option Premium (₹)",
+    "📈 Buying Price(₹)",
     min_value=0.0,
-    value=0.0,
+    value=1.0,
     step=1.0
 )
 
