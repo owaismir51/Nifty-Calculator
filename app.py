@@ -2,7 +2,7 @@ import streamlit as st
 import math
 
 st.set_page_config(
-    page_title="Upstox Lot Calculator",
+    page_title="Lot Calculator",
     layout="centered"
 )
 
